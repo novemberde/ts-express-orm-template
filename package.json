@@ -1,0 +1,38 @@
+{
+   "name": "ts-express-orm-template",
+   "version": "1.0.0",
+   "description": "template",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon --watch src --delay 1 --exec 'ts-node' src/www.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/novemberde/hanko_admin.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/novemberde/ts-express-orm-template/issues"
+   },
+   "homepage": "https://github.com/novemberde/ts-express-orm-template#readme",
+   "dependencies": {
+      "express": "^4.16.4",
+      "morgan": "^1.9.1",
+      "mysql": "^2.14.1",
+      "mysql2": "^1.6.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.8"
+   },
+   "devDependencies": {
+      "@types/express": "^4.16.0",
+      "@types/morgan": "^1.7.35",
+      "nodemon": "^1.18.5",
+      "ts-node": "^3.3.0",
+      "typeorm": "^0.2.8",
+      "typescript": "^3.1.4",
+      "webpack": "^4.23.1"
+   }
+}
