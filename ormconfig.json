@@ -1,24 +1,37 @@
 {
-   "type": "mysql",
-   "host": "localhost",
-   "port": 3306,
-   "username": "test",
-   "password": "test",
-   "database": "test",
-   "synchronize": true,
-   "logging": false,
+  "type": "mysql",
+  "synchronize": true,
+  "logging": true,
+  "replication": {
+    "master": {
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "1234",
+      "database": "test"
+    },
+    "slaves": [
+      {
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "1234",
+        "database": "test"
+      }
+    ]
+  },
    "entities": [
-      "src/entity/**/*.ts"
-   ],
-   "migrations": [
-      "src/migration/**/*.ts"
-   ],
-   "subscribers": [
-      "src/subscriber/**/*.ts"
-   ],
-   "cli": {
-      "entitiesDir": "src/entity",
-      "migrationsDir": "src/migration",
-      "subscribersDir": "src/subscriber"
-   }
+    "src/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+    "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
 }
