@@ -1,3 +1,5 @@
+import "reflect-metadata";
+
 import * as express from 'express';
 import TestRoute from './routes/TestRoute';
 import ErrorHandler from './handlers/ErrorHandler';
