@@ -23,17 +23,16 @@
       "express": "^4.16.4",
       "morgan": "^1.9.1",
       "mysql": "^2.14.1",
-      "reflect-metadata": "^0.1.12",
-      "typeorm": "0.2.8"
+      "reflect-metadata": "^0.1.12"
    },
    "devDependencies": {
-      "@types/body-parser": "^1.17.0",
-      "@types/express": "^4.16.0",
-      "@types/morgan": "^1.7.35",
-      "nodemon": "^1.18.8",
+      "@types/body-parser": "^1.17.1",
+      "@types/express": "^4.17.1",
+      "@types/morgan": "^1.7.37",
+      "nodemon": "^1.19.1",
       "ts-node": "^3.3.0",
-      "typeorm": "^0.2.8",
-      "typescript": "^3.1.4",
-      "webpack": "^4.23.1"
+      "typeorm": "^0.2.18",
+      "typescript": "^3.5.3",
+      "webpack": "^4.39.2"
    }
 }
