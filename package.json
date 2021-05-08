@@ -31,7 +31,7 @@
       "@types/morgan": "^1.7.37",
       "nodemon": "^1.19.1",
       "ts-node": "^3.3.0",
-      "typeorm": "^0.2.18",
+      "typeorm": "^0.2.25",
       "typescript": "^3.5.3",
       "webpack": "^4.39.2"
    }
