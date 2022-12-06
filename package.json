@@ -19,8 +19,8 @@
    },
    "homepage": "https://github.com/novemberde/ts-express-orm-template#readme",
    "dependencies": {
-      "body-parser": "^1.18.3",
-      "express": "^4.16.4",
+      "body-parser": "^1.20.1",
+      "express": "^4.18.2",
       "morgan": "^1.9.1",
       "mysql": "^2.14.1",
       "reflect-metadata": "^0.1.12"
