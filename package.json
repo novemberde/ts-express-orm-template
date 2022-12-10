@@ -20,7 +20,7 @@
    "homepage": "https://github.com/novemberde/ts-express-orm-template#readme",
    "dependencies": {
       "body-parser": "^1.18.3",
-      "express": "^4.16.4",
+      "express": "^4.17.3",
       "morgan": "^1.9.1",
       "mysql": "^2.14.1",
       "reflect-metadata": "^0.1.12"
