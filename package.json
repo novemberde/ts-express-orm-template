@@ -33,6 +33,6 @@
       "ts-node": "^3.3.0",
       "typeorm": "^0.2.18",
       "typescript": "^3.5.3",
-      "webpack": "^4.39.2"
+      "webpack": "^5.75.0"
    }
 }
